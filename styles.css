@@ -1,0 +1,52 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+#wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+#page-banner{
+    background: #fae9e9 ;
+    padding: 10px 0;
+    
+}
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; 
+    
+}
+
+
+#apply button{
+    
+    border: 1px solid #2f42ec;
+    background: #1f62f3;
+    padding: 10px 20px;
+    
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: right;
+    margin: 20px 0;
+    margin-right: 15px;
+    border-right: 0;
+    color: white;
+}
